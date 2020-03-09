@@ -1,6 +1,6 @@
 #Finding sum of series in given form
-
-def sumOfSeries(num): 
+num=int(input("enter number"))
+def sumSeries(num): 
     res = 0
     fact = 1
       
@@ -9,3 +9,4 @@ def sumOfSeries(num):
         res = res + (i/ fact) 
           
     return res 
+print(sumSeries(num))
